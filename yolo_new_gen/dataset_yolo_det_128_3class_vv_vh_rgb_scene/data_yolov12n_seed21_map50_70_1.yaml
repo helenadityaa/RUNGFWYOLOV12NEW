@@ -1,0 +1,14 @@
+# Dataset YAML used for the YOLOv12N seed21 evaluation that reached
+# test mAP50 = 0.7005418944626934 and mAP50-95 = 0.42106573855156376.
+# Metrics are stored in:
+# runs/detect_test/YOLOV12N_192_E50_no_mosaic_seed21_best_test/test_metrics.csv
+
+path: "E:/FILEALE/RUNYOLO_FINALBISMILLAH - Copy/yolo_new_gen/dataset_yolo_det_128_3class_vv_vh_rgb_scene"
+train: train/images
+val: val/images
+test: test/images
+nc: 3
+names:
+  0: Fishing
+  1: Cargo
+  2: Passenger
