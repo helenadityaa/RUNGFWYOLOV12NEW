@@ -1,0 +1,17 @@
+# YOLO training and inference
+ultralytics
+torch>=2.0.0
+torchvision
+
+# YOLO dataset preparation
+numpy
+pandas
+scikit-learn
+tifffile
+Pillow
+opencv-python
+
+# Plots and experiment summaries
+matplotlib
+seaborn
+openpyxl

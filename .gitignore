@@ -1,0 +1,61 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Local/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training datasets and generated image data
+metadata.csv
+new/metadata/*.csv
+new/XML/
+PATCH_CAL/
+new/PATCH_CAL/
+dataset/
+**/dataset_yolo*/
+**/resized_resnet*/
+**/augment/
+**/final/
+**/raw_crops/
+
+# Experiment outputs
+**/runs/
+**/outputs*/
+**/experiments/
+**/eval*/
+**/predict*/
+
+# Model/checkpoint/export artifacts
+*.pt
+*.pth
+*.onnx
+*.trt
+*.engine
+*.h5
+*.hdf5
+*.save
+*.npz
+
+# Generated plots/media and SAR rasters
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.bmp
+
+# Legacy local helper scripts
+yolo_new_gen/predict_*_64.py
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+**/_tmp*/
